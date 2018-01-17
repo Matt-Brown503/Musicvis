@@ -1,7 +1,9 @@
 PRODUCT OVERVIEW
+
 The Spotify Music Visualizer is a webapp that users will be able to use their spotify account to see what kind of music they like based on the music inside of their library. This will be presented as charts, graphs,etc.
 
 SPECIFIC FUNCTIONALITY
+
 The home page will have a link for a user to log in to their account. This will redirect them to spotify where they will need to login/approve my app to see their saved tracks. Then they will be directed back to my site where I will visualize it. There may also be a user profile page for them to see their specific user info. for MVP there will be at most 3 pages.
 
 My app will take in the user specific tracks. Save them to a database and then make a second request to find the artist for the tracks (the genre is tied to the artist). I will be then be able see how many times an artist shows up in a users library thus telling me how many times a specific genre shows up. Eventually I will be able to use my library to search for information instead of making a call to Spotify's API for the information.
@@ -19,6 +21,7 @@ Sub genres will be color coded to match their umbrella genre. Example Alt-rock, 
 
 
 DATA MODEL
+
 What are the persistent “nouns” you need to save across pages in your project MVP?
 What do they represent?
 
@@ -45,4 +48,5 @@ UI/UX - 1.5 week
 
 
 FURTHER WORK
+
 The ability for users to compare their taste with friends or other users. Look at trends based on location within the US. More details like age and gender would be fun to compare as well. 
